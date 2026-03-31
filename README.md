@@ -18,13 +18,13 @@ fx-quant-research--1-/
     └── tests/                  # Unit tests
 ```
 
-## 🎯 Hypothesis
+## Hypothesis
 
 **ATR-normalized ALMA slope trend detection:**
 
 > When the ATR-normalized first-difference of an ALMA(50) moving average has been consistently positive (or negative) for ≥ 2 consecutive bars during active London/New York sessions, enter long (or short) with ATR-based SL/TP sizing.
 
-## 📊 Key Results (Baseline)
+## Key Results (Baseline)
 
 | Metric | Value |
 |--------|-------|
@@ -37,7 +37,7 @@ fx-quant-research--1-/
 
 **IC Finding:** Raw ALMA slope has negative IC of −0.016, suggesting mean-reversion characteristics rather than trend-following.
 
-## 🚀 Quick Start
+## Quick Start
 
 Navigate to the main project directory:
 
@@ -81,16 +81,16 @@ python notebooks/02_univariate_ic_test.py
 
 ## 📈 Research Pipeline
 
-1. ✅ **Quick Test** — Visual signal verification
-2. ✅ **IC Test** — Spearman correlation analysis
-3. ✅ **Baseline Backtest** — Default parameter performance
-4. ✅ **Parameter Sweep** — Grid search over 243 combinations
-5. ✅ **Risk Variation** — Sharpe vs risk% heatmap
+1. **Quick Test** — Visual signal verification
+2. **IC Test** — Spearman correlation analysis
+3. **Baseline Backtest** — Default parameter performance
+4. **Parameter Sweep** — Grid search over 243 combinations
+5. **Risk Variation** — Sharpe vs risk% heatmap
 6. ⏳ **Cross-Pair Validation** — Test on other FX pairs
 7. ⏳ **Regime Detection** — Volatility-conditional performance
 8. ⏳ **Production Deployment** — MT5 integration
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.8+** — Core language
 - **Pandas** — Data manipulation
@@ -99,7 +99,7 @@ python notebooks/02_univariate_ic_test.py
 - **Matplotlib** — Visualization
 - **pytest** — Testing framework
 
-## 📚 Documentation
+## Documentation
 
 Full documentation is available in the main project directory:
 
@@ -107,7 +107,7 @@ Full documentation is available in the main project directory:
 - [Configuration Guide](fx-quant-research/config/config.yaml) — Parameter reference
 - [Test Results](fx-quant-research/reports/) — Generated analysis outputs
 
-## 🔬 Experimental Scripts
+## Experimental Scripts
 
 Located in `fx-quant-research/experiments/`:
 
@@ -125,7 +125,7 @@ Located in `fx-quant-research/experiments/`:
 3. Add regime-conditional analysis
 4. Consider signal inversion (mean-reversion vs trend-following)
 
-## 📝 License
+## License
 
 MIT License (or specify your license)
 

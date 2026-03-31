@@ -1,0 +1,22 @@
+{
+  "n_trades": 7325,
+  "sharpe": 0.2895,
+  "cagr": 0.0428,
+  "total_return": 0.3207,
+  "max_drawdown": -0.6151,
+  "win_rate": 0.3719,
+  "profit_factor": 1.0222,
+  "avg_win_usd": 120.64,
+  "avg_loss_usd": -69.88,
+  "avg_bars_held": 16.3,
+  "final_equity": 13207.41,
+  "gross_profit": 328628.41,
+  "gross_loss": -321497.14,
+  "exit_breakdown": {
+    "SL": 3974,
+    "TP": 2009,
+    "TIME": 916,
+    "SIGNAL_REVERSE": 425,
+    "EOD": 1
+  }
+}

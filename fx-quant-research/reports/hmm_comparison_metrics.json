@@ -1,0 +1,46 @@
+{
+  "baseline": {
+    "n_trades": 7325,
+    "sharpe": 0.2895,
+    "cagr": 0.0428,
+    "total_return": 0.3207,
+    "max_drawdown": -0.6151,
+    "win_rate": 0.3719,
+    "profit_factor": 1.0222,
+    "avg_win_usd": 120.64,
+    "avg_loss_usd": -69.88,
+    "avg_bars_held": 16.3,
+    "final_equity": 13207.41,
+    "gross_profit": 328628.41,
+    "gross_loss": -321497.14
+  },
+  "hmm_gated": {
+    "n_trades": 4805,
+    "sharpe": 0.4015,
+    "cagr": 0.0727,
+    "total_return": 0.594,
+    "max_drawdown": -0.5336,
+    "win_rate": 0.3729,
+    "profit_factor": 1.033,
+    "avg_win_usd": 160.75,
+    "avg_loss_usd": -92.55,
+    "avg_bars_held": 16.5,
+    "final_equity": 15940.22,
+    "gross_profit": 288055.63,
+    "gross_loss": -278842.07
+  },
+  "baseline_exits": {
+    "SL": 3974,
+    "TP": 2009,
+    "TIME": 916,
+    "SIGNAL_REVERSE": 425,
+    "EOD": 1
+  },
+  "hmm_exits": {
+    "SL": 2596,
+    "TP": 1331,
+    "TIME": 597,
+    "SIGNAL_REVERSE": 280,
+    "EOD": 1
+  }
+}
